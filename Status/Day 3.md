@@ -77,6 +77,13 @@ print(" ".join(sorted(out_string)))
 ```
 ---
 
+---
+```python
+'''Solution by: Arutrr0
+print(" ".join(sorted(set(i for i in input("Enter string:").split()))))
+```
+---
+
 # Question 11
 
 ### **Question**
