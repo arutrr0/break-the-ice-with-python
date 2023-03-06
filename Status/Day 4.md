@@ -99,6 +99,14 @@ print("UPPER CASE: ", upper)
 print("LOWER CASE: ", lower)
 ```
 
+```python
+# solution by Arutrr0
+
+sentence = input("Enter a sentence: ")
+print(f"UPPER CASE: {sum(1 for i in sentence if i.isupper())}")
+print(f"UPPER CASE: {sum(1 for i in sentence if i.islower())}")
+```
+
 ---
 
 # Question 15
